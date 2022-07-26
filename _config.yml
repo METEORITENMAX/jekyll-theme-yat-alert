@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: ALeRT - The Aachen Legged Rescue Team
 email: your-email@domain.com
 author: GitHub User
 
@@ -146,19 +146,20 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
+header_pages:
+  - index.html
+  - about.html
+  - archives.html
 #   - categories.html
 #   - tags.html
-#   - about.md
+
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "ALeRT"
+    subheading: "The Robucup Rescue League Team of the FH Aachen and Mascor institute"
+    banner: "/assets/images/banners/spot_0.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
